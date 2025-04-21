@@ -164,7 +164,7 @@ const About: React.FC = () => {
       />
 
       <AboutSection
-        title="Advanced Security Training"
+        title="Oscarnewman Security Training"
         description="We cultivate the next generation of security professionals through cutting-edge training programs. Our curriculum empowers young talents with advanced skills in emergency response, cyber threat management, surveillance techniques, and innovative security technologies."
         image={teaching}
         imageRight={false}
@@ -247,7 +247,7 @@ At Oscarnewman, we understand the importance of securing critical infrastructure
         specialText="Trust Oscar Newman to Protect Your Digital World"
       />
       <AboutSection
-        title="CCTV Installations"
+        title="Ditigal Security Solutions"
         description="Secure Your Premises with Oscar Newman's CCTV Solutions. 
   In today's uncertain world, ensuring the security and safety of your premises is paramount. At Oscar Newman, we specialize in designing, installing, and maintaining high-quality CCTV systems that provide unparalleled surveillance and protection.
 
