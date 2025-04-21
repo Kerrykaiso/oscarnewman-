@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: "border-box";
+  /* border: 1px solid red; */
+  /* margin: 0; */
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+body {
+  font-family: "Montserrat", serif;
+}
+
+.abouthero {
+  background-image: url("../src/assets/about.jpg");
+}
+
+.slick-slide {
+  margin-right: 20px; /* Adjust this value to control the gap between items */
+}
+
+.slick-dots {
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.slick-dots li button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-dot {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.slick-dots li.slick-active .custom-dot {
+  background-color: #fd7904;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.logo-scroller {
+  width: 100%;
+  overflow-x: auto;
+  position: relative;
+  /* background-color: lightgray; */
+  padding: 30px 0;
+}
+
+.logos-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  animation: scroll 15s linear infinite;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+/* Smooth horizontal scrolling */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50%));
+  }
+}
