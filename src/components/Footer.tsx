@@ -115,7 +115,7 @@ const Footer: React.FC = () => {
           <FooterSection title="Quick Links">
             <div className="flex flex-col gap-3">
               <FooterLink to="/">Home</FooterLink>
-              <FooterLink to="/aboutus">About</FooterLink>
+              <FooterLink to="/our-story">About</FooterLink>
             </div>
           </FooterSection>
 
