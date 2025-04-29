@@ -1,4 +1,15 @@
 import img1 from "../assets/cctv.jpg";
+import homesecurity from "../assets/homesecurity.jpg";
+import accesscontrol from "../assets/accesscontrol.png";
+import businessecurity from "../assets/business-security-guards.jpeg";
+import awareness from "../assets/awareness.png";
+import backgroundcheck from "../assets/backgrundcheck.png";
+import surviallance from "../assets/cctv-security-alarm-and-fire-surveillance.jpeg";
+import martime from "../assets/martime.jpg";
+import avaition from "../assets/avaition.jpg";
+import securedmobility from "../assets/securedmobility.jpg";
+import cybersecuritytraining from "../assets/cyber-security-courses-in-nigeria.jpg";
+import telemmantics from "../assets/telemanticccssssss.jpg";
 
 const servicesData = {
   physical_security: [
@@ -23,14 +34,14 @@ const servicesData = {
         "Ensuring the safe and seamless movement of you and your assets.",
       content:
         "In times of crisis, every second counts. Our Emergency Evacuation Services ensure the safe and rapid evacuation of personnel during incidents like fires, natural disasters, or security threats. We create site-specific evacuation plans and work closely with your safety teams and first responders to manage evacuations efficiently, minimize panic, and keep everyone safe. Emergency Response Solution ",
-      img: null,
+      img: securedmobility,
     },
     {
       title: "Maritime Protection Service ",
       sub_title: "Defending waters, securing trade, safety beyond the shore",
       content:
         "Providing advanced maritime protection, ensuring the safety of vessels, ports, and offshore assets is what we do. Our services include piracy prevention, cargo screening, access control, and real-time surveillance to mitigate threats at sea. With cutting-edge technology and experienced personnel, we safeguard maritime operations against security risks.",
-      img: null,
+      img: martime,
       reverse: true,
     },
     {
@@ -45,7 +56,7 @@ const servicesData = {
       sub_title: "Securing skies, safeguarding borders",
       content:
         "Safe air travel and secure borders with expert screening, access control, surveillance, and threat response. Our advanced solutions protect passengers, crew, and national boundaries while maintaining smooth operations. ",
-      img: null,
+      img: avaition,
       reverse: true,
     },
   ],
@@ -57,14 +68,14 @@ const servicesData = {
         "Restricting threats, allowing trust & seamless security at every entry point.",
       content:
         "Prevent unauthorized access, intrusion and theft by using advanced access control solutions to safeguard businesses, homes, and critical facilities. At Oscar Newman our systems include biometric authentication, keycard entry, turnstiles, and smart surveillance used to prevent unauthorized access while ensuring smooth operations. With cutting-edge technology and expert implementation, we create secure environments tailored to your needs",
-      img: null,
+      img: accesscontrol,
     },
     {
       title: "Surveillance / Remote Monitoring and Response",
       sub_title: "Watching over, responding fast.",
       content:
         "We bring you advanced surveillance and remote monitoring solutions to keep your property, business, and assets secure 24/7. Our high-definition CCTV systems, AI-driven analytics, and real-time monitoring to ensure immediate threat detection and rapid response to any security incidents. With remote access and expert intervention, we provide seamless protection, no matter where you are.",
-      img: null,
+      img: surviallance,
       reverse: true,
     },
     {
@@ -73,7 +84,7 @@ const servicesData = {
         "Rely on our Business Security Solution to protect your company, allowing you to focus on what matters most.",
       content:
         "We deliver a full spectrum of security solutions, including network, web, cloud, application security and lots more. Our specialists work closely with you to identify your specific needs, crafting a customized security strategy for maximum protection.",
-      img: null,
+      img: businessecurity,
     },
     {
       title: "Intelligence and Surveillance",
@@ -89,7 +100,7 @@ const servicesData = {
         "Smart technology, real-time tracking security and efficiency redefined.",
       content:
         "Integrating cutting-edge electronics and telematics to enhance security, tracking, and communication. Our solutions include GPS tracking, fleet management, remote diagnostics, and real-time data analytics, ensuring seamless monitoring and operational efficiency. With smart technology and precision engineering, we keep you connected and in control.",
-      img: null,
+      img: telemmantics,
     },
     {
       title: "Digital Technology and Gadgets ",
@@ -104,7 +115,7 @@ const servicesData = {
       sub_title: "Your home, your safety—protected every moment.",
       content:
         "Bringing to your doorsteps advanced home protection with cutting-edge systems like smart alarms, CCTV surveillance, motion detectors, and automated access control. Whether deterring intruders or responding to emergencies, our technology ensures round-the-clock safety for you and your family. Stay secure with intelligent, reliable, and fully integrated home security solutions.",
-      img: null,
+      img: homesecurity,
     },
   ],
 
@@ -114,7 +125,7 @@ const servicesData = {
       sub_title: "Verify with confidence, secure with certainty.",
       content:
         "Reliable identity verification and background screening are crucial for security and trust. Oscar Newman solutions include biometric authentication, criminal record checks, employment history verification, and credential validation, ensuring that only qualified and trustworthy individuals gain access to sensitive roles and environments.",
-      img: null,
+      img: backgroundcheck,
     },
     {
       title: "Talent Risk and Outsourcing Solutions ",
@@ -148,7 +159,7 @@ const servicesData = {
       sub_title: "Stay ahead of cyber threats—train, protect, defend.",
       content:
         "With cyber threats on the rise, organizations must stay ahead of potential risks. Our cybersecurity training 	 phishing awareness, data protection, network security best practices, and incident response. We empower employees and IT teams to detect, prevent, and respond to cyber threats effectively.",
-      img: null,
+      img: cybersecuritytraining,
     },
     {
       title: "Emergency and Crisis Management training",
@@ -187,7 +198,7 @@ const servicesData = {
       sub_title: "Informed Teams Are the First Line of Defense.",
       content:
         "Our Cyber Security Awareness Program empowers employees with the knowledge and tools needed to identify and respond to cyber threats. Through interactive sessions, real-world scenarios, and phishing simulations, we foster a security-first culture. The program is tailored to different organizational levels to ensure everyone—from staff to executives—understands their role in protecting digital assets.",
-      img: null,
+      img: awareness,
       reverse: true,
     },
     {

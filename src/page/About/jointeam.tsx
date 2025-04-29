@@ -1,10 +1,10 @@
 import {
-  FaUserShield,
+  // FaUserShield,
   FaChartLine,
   FaHandsHelping,
   FaGraduationCap,
 } from "react-icons/fa";
-import { MdSecurity, MdWork } from "react-icons/md";
+import { MdSecurity } from "react-icons/md";
 
 const JoinTeam = () => {
   const benefits = [
@@ -57,6 +57,8 @@ const JoinTeam = () => {
     },
   ];
 
+  console.log(openPositions);
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       {/* Hero Section */}
@@ -68,11 +70,11 @@ const JoinTeam = () => {
           Join Oscar Newman Security and become part of an elite team redefining
           protection standards worldwide.
         </p>
-        <div className="mt-8">
+        {/* <div className="mt-8">
           <button className="bg-blue-700 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-800 transition">
             View Open Positions
           </button>
-        </div>
+        </div> */}
       </section>
 
       {/* Why Join Us */}
@@ -96,7 +98,7 @@ const JoinTeam = () => {
         <h2 className="text-3xl font-bold text-center mb-12">
           Current Opportunities
         </h2>
-        <div className="space-y-6">
+        {/* <div className="space-y-6">
           {openPositions.map((position, index) => (
             <div
               key={index}
@@ -122,7 +124,7 @@ const JoinTeam = () => {
               <p className="mt-4 text-gray-700">{position.description}</p>
             </div>
           ))}
-        </div>
+        </div> */}
       </section>
 
       {/* Training Program */}
