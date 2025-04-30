@@ -10,6 +10,13 @@ import avaition from "../assets/avaition.jpg";
 import securedmobility from "../assets/securedmobility.jpg";
 import cybersecuritytraining from "../assets/cyber-security-courses-in-nigeria.jpg";
 import telemmantics from "../assets/telemanticccssssss.jpg";
+import securityrisks from "../assets/securityriskkkk.jpeg";
+import cyberadvisory from "../assets/cyberadvisory.jpeg";
+import crisismanagement from "../assets/crisismanagement.jpeg";
+import consulting from "../assets/consulting.jpeg";
+import incidentreport from "../assets/incidentreport.jpeg";
+import penetration from "../assets/penetration.jpeg";
+import soc from "../assets/soc.jpeg";
 
 const servicesData = {
   physical_security: [
@@ -176,14 +183,14 @@ const servicesData = {
       sub_title: "Your 24/7 Digital Watchtower",
       content:
         "A Security Operations Center (SOC) is the heartbeat of modern cybersecurity defense. Our SOC services offer real-time monitoring, threat detection, and response to potential cyber threats across your digital infrastructure. With highly skilled analysts, AI-driven tools, and threat intelligence integration, we ensure your systems are protected around the clock. We proactively identify, contain, and eliminate threats before they impact your business.",
-      img: null,
+      img: soc,
     },
     {
       title: "Vulnerability Assessment and Penetration Testing (VAPT)",
       sub_title: "Expose the Weakness. Fortify the Strength.",
       content:
         "Our VAPT services are designed to uncover security gaps before attackers do. We simulate real-world attacks to test the resilience of your systems, applications, and network infrastructure. Through detailed vulnerability scanning and controlled exploitation, we help you understand your risks and provide actionable recommendations to close security loopholes, ensuring a stronger, more secure environment.",
-      img: null,
+      img: penetration,
       reverse: true,
     },
     {
@@ -191,7 +198,7 @@ const servicesData = {
       sub_title: "Documenting the Breach. Driving the Response.",
       content:
         "A well-documented incident report is essential for effective recovery and future prevention. We provide detailed post-incident reports that outline what occurred, how it was detected, the impact, and the response executed. Our reports include technical findings, root cause analysis, and recommendations to prevent recurrence. These insights serve as critical resources for audits, legal reviews, and improving incident response strategies.",
-      img: null,
+      img: incidentreport,
     },
     {
       title: "Cyber Security Awareness Program",
@@ -223,14 +230,14 @@ const servicesData = {
       sub_title: "Anticipating the Threat. Neutralizing the Risk.",
       content:
         "Our Risk Assessment and Management services provide a proactive approach to identifying, analyzing, and mitigating potential threats to your organization. We conduct detailed risk evaluations across physical, operational, and digital environments, allowing clients to make informed decisions and minimize vulnerabilities. Our structured methodologies ensure that both existing and emerging risks are addressed with strategic, scalable solutions aligned to your business objectives.",
-      img: null,
+      img: securityrisks,
     },
     {
       title: "Physical Security consultancy ",
       sub_title: "Building Safer Spaces, One Layer at a Time",
       content:
         "We offer expert Physical Security Consultancy services designed to safeguard your assets, personnel, and operations. Our solutions cover security architecture, perimeter protection, access control systems, CCTV surveillance, and on-site threat analysis. By combining industry best practices with tailored security design, we help organizations develop robust defenses against unauthorized access, theft, vandalism, and other physical threats.",
-      img: null,
+      img: consulting,
       reverse: true,
     },
     {
@@ -238,14 +245,14 @@ const servicesData = {
       sub_title: "Smart defense for a smarter world.",
       content:
         "Our Cyber Security Advisory services are focused on protecting your digital infrastructure from cyber threats. We assess your current cybersecurity posture, identify gaps, and recommend best-fit solutions to enhance resilience. From data protection and endpoint security to network defense and user awareness, we provide strategic guidance to secure your digital assets in an increasingly complex threat landscape.",
-      img: null,
+      img: cyberadvisory,
     },
     {
       title: "Crisis and Emergency Management ",
       sub_title: "Prepared for the worst. Equipped for the unexpected.",
       content:
         "Preparedness is key. Our Crisis and Emergency Management solutions are designed to help organizations respond effectively to unexpected incidents. We develop comprehensive response frameworks, contingency plans, and conduct simulations and drills. Whether it's a natural disaster, security breach, or operational disruption, our team ensures that your people and processes are ready to respond, recover, and resume operations with minimal impact.",
-      img: null,
+      img: crisismanagement,
       reverse: true,
     },
     {
