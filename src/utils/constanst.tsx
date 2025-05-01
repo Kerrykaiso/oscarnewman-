@@ -17,6 +17,9 @@ import consulting from "../assets/consulting.jpeg";
 import incidentreport from "../assets/incidentreport.jpeg";
 import penetration from "../assets/penetration.jpeg";
 import soc from "../assets/soc.jpeg";
+import endpoint from "../assets/endpointsecure.jpg";
+import talentrisk from "../assets/Talentrisk .jpg";
+import cybertraining from "../assets/cybertraining.jpg";
 
 const servicesData = {
   physical_security: [
@@ -140,7 +143,7 @@ const servicesData = {
         "Right talent, zero risk—building security from the inside out",
       content:
         "Managing workforce risks requires expertise and precision. Our talent risk and outsourcing solutions help businesses identify potential security threats, conduct thorough employee vetting, and provide highly trained personnel for critical security roles. We ensure organizations have the right people with the right skills for maximum safety and efficiency.",
-      img: null,
+      img: talentrisk,
       reverse: true,
     },
   ],
@@ -213,14 +216,14 @@ const servicesData = {
       sub_title: "From Basic to Advanced – We Build Cyber Defenders.",
       content:
         "Our Cybersecurity Training programs are designed to build technical skills and boost cyber readiness across your organization. We offer beginner to advanced-level training covering topics such as threat hunting, incident response, ethical hacking, and secure coding. Whether in-person or online, our training modules are developed by experts and align with global certifications and standards.",
-      img: null,
+      img: cybertraining,
     },
     {
       title: "End Point Security",
       sub_title: "Secure Every Device. Protect Every Access Point.",
       content:
         "Endpoints are often the weakest link in the security chain. Our Endpoint Security solutions protect all user devices—laptops, desktops, and mobile—from malware, ransomware, and unauthorized access. We deploy advanced threat detection, encryption, and real-time monitoring to ensure all access points remain secure, even outside your core network. A strong endpoint defense is crucial in today's hybrid work environment.",
-      img: null,
+      img: endpoint,
       reverse: true,
     },
   ],

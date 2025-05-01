@@ -130,7 +130,7 @@ const AboutUs = () => {
       </div>
 
       {/* Legal Operating Document Section */}
-      <div className="container mx-auto px-6 py-20" data-aos="flip-up">
+      {/* <div className="container mx-auto px-6 py-20" data-aos="flip-up">
         <h2 className="text-3xl font-bold mb-8 text-gray-800 text-center uppercase tracking-wide">
           Legal Operating Document
         </h2>
@@ -148,7 +148,7 @@ const AboutUs = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
       {/* Founder Modal */}
       {isModalOpen && selectedFounder && (
         <div className="fixed inset-0 bg-[#0303034D] flex justify-center items-center z-50">
