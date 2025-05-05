@@ -13,10 +13,10 @@ import {
 
 import sec from "../../assets/secureplace.jpg";
 import teaching from "../../assets/teaching.jpg";
-import ourstaff from "../../assets/ourr.jpg";
+import ourstaff from "../../assets/newstatffob.jpg";
 import otherstauff from "../../assets/critical.jpg";
-import telematics from "../../assets/telematics.jpg";
-import cyber from "../../assets/cyberr.jpg";
+import telematics from "../../assets/telemanticccssssss.jpg";
+import cyber from "../../assets/cyyyyb.jpg";
 import cctv from "../../assets/cctv.jpg";
 import { useNavigate } from "react-router-dom";
 
@@ -203,7 +203,7 @@ At Oscarnewman, we understand the importance of securing critical infrastructure
             solutions that empower individuals and communities. We're proud to
             partner with{" "}
             <a
-              href="https://www.sety.com/contact-us"
+              href="http://sety.io"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 underline-none hover:text-blue-800"
@@ -216,7 +216,7 @@ At Oscarnewman, we understand the importance of securing critical infrastructure
             Our partnership with Sety is built on a shared commitment to
             empowering safety and security. By combining{" "}
             <a
-              href="https://www.sety.com/contact-us"
+              href="http://sety.io"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 underline-none hover:text-blue-800"
