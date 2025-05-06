@@ -6,6 +6,8 @@ import {
   FaUserShield,
 } from "react-icons/fa";
 import { MdEmail, MdSecurity } from "react-icons/md";
+import emailjs from "@emailjs/browser";
+
 
 const BookConsultation = () => {
   const [formData, setFormData] = useState({
@@ -41,7 +43,28 @@ const BookConsultation = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      to_name: "Oscar Newman Group",
+      service: formData.service,
+      date: formData.date,
+      phone: formData.phone,
+      message: formData.message,
+      };
+
+      emailjs
+      .send("service_2j8xq4g", "template_3v5z6gk", templateParams, "user_0X1Y2Z3A4B5C6D7E8F9G0")
+      .then((result) => {
+        console.log(result.text);
+        alert("Message sent successfully!");
+        setFormData({ name: "", email: "", message: "",phone:"", service:"",date:"",company:"" });
+        },(error) => {
+          console.error(error.text);
+          alert("Failed to send message.");
+          })
     // Handle form submission
+    
     console.log("Form submitted:", formData);
     alert(
       "Thank you for your consultation request. We will contact you shortly."

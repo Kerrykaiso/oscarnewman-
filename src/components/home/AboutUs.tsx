@@ -284,27 +284,27 @@ dedication to duty.
 He is currently playing the advisory role in matters relating to Oil and gas sector for Oscar Newman `,
     image: "/images/dapo.jpg",
   },
-  {
-    name: "Prof. Sola Adesope",
-    description: `Professor O Adesope is a distinguished multiple awardee from Washington State 
-University, USA. He has worked extensively in Nigeria, America, and Europe.
-A first class student in Computer Science from Nigeria and an outstanding professor in 
-education strategy, development and policies in USA.
-He is a member of several professional Association:
-- American Educational Research Association (AERA)
-- American Psychological Association (education Psychology)
--Canadian Society for the study of Education (CSSE)
- - Canadian Association of educational Psychology (CAEP) 
-- Technology and Teacher Education (TATE)
--Association for the advancement of computing in Education(AACE)
-- Canadian Institute for Distance Education Research (CIDER)
-He holds membership of several editorial boards such as:
-- Associate editor - Journal of Educational Psychology
-- Senior Associate Editor - Journal of Engineering Psychology 
-- Review of Educational Psychology research
--Frontiers in Educational Psychology`,
-    image: "/images/sola.jpg",
-  },
+//   {
+//     name: "Prof. Sola Adesope",
+//     description: `Professor O Adesope is a distinguished multiple awardee from Washington State 
+// University, USA. He has worked extensively in Nigeria, America, and Europe.
+// A first class student in Computer Science from Nigeria and an outstanding professor in 
+// education strategy, development and policies in USA.
+// He is a member of several professional Association:
+// - American Educational Research Association (AERA)
+// - American Psychological Association (education Psychology)
+// -Canadian Society for the study of Education (CSSE)
+//  - Canadian Association of educational Psychology (CAEP) 
+// - Technology and Teacher Education (TATE)
+// -Association for the advancement of computing in Education(AACE)
+// - Canadian Institute for Distance Education Research (CIDER)
+// He holds membership of several editorial boards such as:
+// - Associate editor - Journal of Educational Psychology
+// - Senior Associate Editor - Journal of Engineering Psychology 
+// - Review of Educational Psychology research
+// -Frontiers in Educational Psychology`,
+//     image: "/images/sola.jpg",
+//   },
   {
     name: "Major General Mohammed Magoro (Rtd.)",
     description: `A retired Military General who was a former Minister of Transport, as well as 

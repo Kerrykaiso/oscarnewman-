@@ -42,7 +42,7 @@ const ServiceSection = ({ data }: { data: ServiceProps[] }) => {
             <button
               className="px-6 py-2 text-base lg:text-lg font-semibold bg-[#fd7904] text-white rounded-lg hover:bg-[#e56c00] transition-all duration-300"
               onClick={() => {
-                nav("/contact");
+                nav("/book");
               }}
             >
               Book Service

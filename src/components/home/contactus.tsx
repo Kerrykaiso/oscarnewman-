@@ -3,8 +3,59 @@ import { Element } from "react-scroll";
 import { motion } from "framer-motion";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import imageBg from "../../assets/contactus.png";
+import  { useState, ChangeEvent, FormEvent } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactUs: React.FC = () => {
+
+
+  interface FormData {
+    user_name: string;
+    user_email: string;
+    message: string;
+    }
+  const [formData, setFormData] = useState<FormData>({
+    user_name: "",
+    user_email: "",
+    message: "",
+  });
+  
+
+
+    const handleChange = (
+      e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+      ) => {
+      const { name, value } = e.target;
+      setFormData((prev) => ({ ...prev, [name]: value }));
+      };
+
+
+  const handleSubmit = (e: FormEvent) => {
+    e.preventDefault();
+
+    if (!formData.user_name || !formData.user_email || !formData.message) {
+      alert("Please fill in all fields.");
+      return;
+      
+    }
+    const templateParams = {
+      from_name: formData.user_name,
+      from_email: formData.user_email,
+      to_name: "Oscar Newman Group",
+      message: formData.message,
+      };
+
+      emailjs
+        .send("service_2j8xq4g", "template_3v5z6gk", templateParams, "user_0X1Y2Z3A4B5C6D7E8F9G0")
+        .then((result) => {
+          console.log(result.text);
+          alert("Message sent successfully!");
+          setFormData({ user_name: "", user_email: "", message: "" });
+          },(error) => {
+            console.error(error.text);
+            alert("Failed to send message.");
+            })
+  }
   return (
     <Element name="contact">
       {/* Hero Section */}
@@ -59,6 +110,12 @@ const ContactUs: React.FC = () => {
             <div className="flex items-center gap-4 text-gray-800">
               <FaEnvelope className="text-orange-500 text-xl" />
               <span className="text-lg">info@oscarnewmangroup.org</span>
+  
+            </div>
+            <div className="flex items-center gap-4 text-gray-800">
+              <FaEnvelope className="text-orange-500 text-xl" />
+              <span className="text-lg">oscarnewmangroup@gmail.com</span>
+  
             </div>
             <div className="flex items-start gap-4 text-gray-800">
               <FaMapMarkerAlt className="text-orange-500 text-xl" />
@@ -78,13 +135,16 @@ const ContactUs: React.FC = () => {
           <h3 className="text-orange-500 font-semibold text-2xl mb-6">
             Send Us a Message
           </h3>
-          <form className="space-y-6">
+          <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label className="block text-gray-700 font-medium">
                 Full Name
               </label>
               <input
                 type="text"
+                value={formData.user_name}
+                onChange={handleChange}
+                name="user_name"
                 className="w-full p-3 border rounded-lg focus:outline-none focus:border-orange-500"
                 placeholder="Enter your name"
               />
@@ -95,6 +155,9 @@ const ContactUs: React.FC = () => {
               </label>
               <input
                 type="email"
+                value={formData.user_email}
+                onChange={handleChange}
+                name="user_email"
                 className="w-full p-3 border rounded-lg focus:outline-none focus:border-orange-500"
                 placeholder="Enter your email"
               />
@@ -102,12 +165,15 @@ const ContactUs: React.FC = () => {
             <div>
               <label className="block text-gray-700 font-medium">Message</label>
               <textarea
+                value={formData.message}
+                onChange={handleChange}
+                name="message"
                 className="w-full p-3 border rounded-lg focus:outline-none focus:border-orange-500"
-                placeholder="Type your message..."
+                placeholder="How can we help you"
                 rows={5}
               ></textarea>
             </div>
-            <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-lg transition-all">
+            <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-lg transition-all" type="submit">
               Send Message
             </button>
           </form>
