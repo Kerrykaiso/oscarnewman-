@@ -1,7 +1,9 @@
-import { FaShieldAlt, FaUserLock, FaEye, FaHeadset } from "react-icons/fa";
+import { FaShieldAlt,  FaEye, FaHeadset } from "react-icons/fa";
 import { MdSecurity, MdOutlineVerifiedUser } from "react-icons/md";
-
+import { useNavigate } from "react-router-dom";
 const WhyUs = () => {
+
+  const nav  = useNavigate()
   const features = [
     {
       icon: <FaShieldAlt className="text-3xl text-blue-600" />,
@@ -9,12 +11,7 @@ const WhyUs = () => {
       description:
         "Our multi-layered security systems detect and neutralize threats before they reach your premises.",
     },
-    {
-      icon: <FaUserLock className="text-3xl text-blue-600" />,
-      title: "Certified Professionals",
-      description:
-        "All operatives undergo rigorous training and hold SIA certifications with specialized expertise.",
-    },
+
     {
       icon: <MdSecurity className="text-3xl text-blue-600" />,
       title: "Cutting-Edge Technology",
@@ -44,13 +41,13 @@ const WhyUs = () => {
   const testimonials = [
     {
       quote:
-        "Oscar Newman transformed our campus security. Their intelligent systems prevented three break-in attempts in the first month alone.",
-      author: "Sarah Johnson, University Facilities Director",
+        "Your integrated services are a delight, they have saved me a lot and give me peace of mind",
+      author: "MD/CEO / Protogy Global Services",
     },
     {
       quote:
-        "The executive protection team handled our high-profile event with discretion and professionalism we've never experienced before.",
-      author: "Michael Chen, Tech Startup CEO",
+        "Their security personnel are not just watchful they are trained, courteous and responsive",
+      author: "Hotel manager, Saire Hotel",
     },
   ];
 
@@ -71,7 +68,7 @@ const WhyUs = () => {
       <section className="mb-20">
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="bg-blue-50 p-8 rounded-xl">
-            <h3 className="text-2xl font-semibold mb-4 text-blue-800">
+            <h3 className="text-xl font-semibold mb-4 text-blue-800">
               Our Philosophy
             </h3>
             <p className="text-gray-700">
@@ -81,8 +78,8 @@ const WhyUs = () => {
             </p>
           </div>
           <div className="bg-blue-50 p-8 rounded-xl">
-            <h3 className="text-2xl font-semibold mb-4 text-blue-800">
-              The Newman Difference
+            <h3 className="text-xl font-semibold mb-4 text-blue-800">
+              The Oscar Newman Difference
             </h3>
             <p className="text-gray-700">
               Unlike conventional firms, we develop proprietary threat
@@ -91,7 +88,7 @@ const WhyUs = () => {
             </p>
           </div>
           <div className="bg-blue-50 p-8 rounded-xl">
-            <h3 className="text-2xl font-semibold mb-4 text-blue-800">
+            <h3 className="text-xl font-semibold mb-4 text-blue-800">
               Client-Centric Approach
             </h3>
             <p className="text-gray-700">
@@ -188,7 +185,9 @@ const WhyUs = () => {
           Schedule a confidential consultation with our security experts to
           assess your vulnerabilities.
         </p>
-        <button className="bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition">
+        <button className="bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
+         onClick={()=>nav("/book")}
+        >
           Request Security Audit
         </button>
       </section>

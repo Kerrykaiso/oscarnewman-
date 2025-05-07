@@ -27,6 +27,7 @@ const BookConsultation = () => {
     { value: "residential", label: "Residential Security" },
     { value: "corporate", label: "Corporate Security" },
     { value: "event", label: "Event Security" },
+    {value: "audit", label:"Request security audit"}
   ];
 
   const handleChange = (
