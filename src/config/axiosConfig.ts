@@ -1,7 +1,8 @@
 import Axios from "axios";
 
 const axios = Axios.create({
-  baseURL: `${import.meta.env.VITE_DEVE_URL}`,
+ // baseURL: `${import.meta.env.VITE_DEVE_URL}`,
+ baseURL: "https://oscarbackend-mfdg.onrender.com/api"
 });
 
 // Adding a response interceptor

@@ -14,7 +14,7 @@ import {
 import sec from "../../assets/secureplace.jpg";
 import teaching from "../../assets/teaching.jpg";
 import ourstaff from "../../assets/sosandresponse.jpeg";
-import otherstauff from "../../assets/critical.jpg";
+import otherstauff from "../../assets/critical2.jpeg";
 import telematics from "../../assets/telematics2.jpeg";
 import cyber from "../../assets/cybersolutions.jpeg";
 import cctv from "../../assets/cctv.jpg";
