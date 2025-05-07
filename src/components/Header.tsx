@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 //import logo from "../assets/newlogorem.png";
-import logo2 from "../assets/logo2.jpeg"
+import logo2 from "../assets/logo22.png"
 import Navbar from "./Navbar";
 
 const Header = () => {
