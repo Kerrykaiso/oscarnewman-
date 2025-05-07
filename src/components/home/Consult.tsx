@@ -1,8 +1,10 @@
 import { IoIosCheckmarkCircle } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
 import securityManagement from "../../assets/Securityt.png";
 //import avatar from "../../assets/avatar.png";
 
 const Consult = () => {
+  const nav = useNavigate()
   const benefits: string[] = [
     "Advanced Encryption Standards",
     "24/7 Threat Monitoring",
@@ -34,7 +36,9 @@ const Consult = () => {
               </div>
             ))}
           </div>
-          <button className="bg-[#fd7904] hover:bg-transparent hover:border transition-all duration-300 border-[#fd7904] py-3 px-16 cursor-pointer rounded-[10px] text-white">
+          <button className="bg-[#fd7904] hover:bg-transparent hover:border transition-all duration-300 border-[#fd7904] py-3 px-16 cursor-pointer rounded-[10px] text-white"
+          onClick={()=>nav("/book")}>
+           
             Book a Consultation
           </button>
         </div>
