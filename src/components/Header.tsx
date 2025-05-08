@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/newlogorem.png";
+//import logo from "../assets/newlogorem.png";
+import logo2 from "../assets/logo22.png"
 import Navbar from "./Navbar";
 
 const Header = () => {
@@ -12,7 +13,9 @@ const Header = () => {
         to="/"
         className="flex justify-center items-center w-[10%] h-full max-md:w-[40%]"
       >
+
         <img src={logo} alt="logo" width={125} />
+
       </Link>
       <Navbar />
     </div>

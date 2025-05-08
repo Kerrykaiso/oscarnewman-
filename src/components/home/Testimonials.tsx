@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import avatar from "../../assets/avatar.png";
+import avatar from "../../assets/avatar-1577909_1280.png";
 import { FaStar } from "react-icons/fa";
 import { AiFillLike } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
@@ -11,7 +11,7 @@ const Testimonials = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -45,22 +45,40 @@ const Testimonials = () => {
   const testimonials = [
     {
       imgSrc: avatar,
-      name: "Stephen Brekke",
-      about: "Legacy Integration Producer",
-      desc: "If you want real marketing that works and effective implementation - mobile app's got you covered.",
+      name: "Synohydro",
+      about: "Project Coorddinator, Synohydro",
+      desc: "Professionalism and reliability define our experience with this security company. Their team consistently demonstrate attention to detail and a commitment to safety that aligns with our operational needs",
     },
     {
       imgSrc: avatar,
-      name: "Stephen Brekke",
-      about: "Legacy Integration Producer",
-      desc: "If you want real marketing that works and effective implementation - mobile app's got you covered.",
+      name: "Sety",
+      about: "Sety Nigeria | Emergency services",
+      desc: "Our partnership with this team on SOS and response has been seamless and impactful. Their rapid deployment capability and disciplined quick response unit has enhanced our emergency handling and efficiency.",
     },
     {
       imgSrc: avatar,
-      name: "Stephen Brekke",
-      about: "Legacy Integration Producer",
-      desc: "If you want real marketing that works and effective implementation - mobile app's got you covered.",
+      name: "Goshen Estate",
+      about: "Chairman, Goshen Estate Residents Association",
+      desc: "Their guards have been visibly detterent to unwanted activity and a reassuring prescence in our estate. We appreciate the calm professionalism they bring to their role everyday.",
     },
+    {
+      imgSrc:avatar,
+      name: "Emmaag Hotel, Ibadan",
+      about:"General Manager, Emmaag Hotel",
+      desc: "Having dependable guards at our hotel has improved guest confindence and helped maintain order, especially during high-traffic events. Their prescence is both reassuring and effective."
+    },
+    {
+      imgSrc: avatar,
+      name: "French Embassy",
+      about:"Security Attache, French Embassy Nigeria",
+      desc: "Discretion, professionalism, and adherence to protocol are non-negotiable at our location, they met those standards with poise and precision."
+    },
+    {
+      imgSrc: avatar,
+      name: "Kayceelaw Properties (KLP)",
+      about:"Managing Director, Kayceelaw Properties",
+      desc:"We needed a reliable team to manage both physical and digital threats. Theit combined CCTV surveillance and guard services have given us full spectrum security we can trust."
+    }
   ];
 
   return (
@@ -85,7 +103,7 @@ const Testimonials = () => {
                 className="absolute -top-6 z-[100000]  w-[12%]"
               />
               <div className="flex absolute right-8 top-12 gap-1">
-                {Array(5)
+                {Array(3)
                   .fill(null)
                   .map((_, index) => (
                     <FaStar size={12} key={index} className="text-[#fd7904]" />

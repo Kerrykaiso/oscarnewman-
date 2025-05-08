@@ -22,7 +22,7 @@ const Navbar = () => {
         { name: "Why Us", link: "/why-us", isRoute: true },
         { name: "Contact Us", link: "contact", isRoute: true },
         { name: "Join Our Team", link: "join", isRoute: true },
-        { name: "Quality policy statement", link: "qps", isRoute: false },
+      //  { name: "Quality policy statement", link: "qps", isRoute: false },
       ],
     },
     {

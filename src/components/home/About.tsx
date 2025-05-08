@@ -13,10 +13,12 @@ import {
 
 import sec from "../../assets/secureplace.jpg";
 import teaching from "../../assets/teaching.jpg";
+
 import ourstaff from "../../assets/newstatffob.jpg";
 import otherstauff from "../../assets/critical.jpg";
 import telematics from "../../assets/telemanticccssssss.jpg";
 import cyber from "../../assets/cyyyyb.jpg";
+
 import cctv from "../../assets/cctv.jpg";
 import { useNavigate } from "react-router-dom";
 
@@ -138,9 +140,9 @@ const About: React.FC = () => {
               technological approaches.
             </p>
             <div className="flex space-x-4">
-              <button className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-lg transition-all">
+              {/* <button className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-lg transition-all">
                 Our Services
-              </button>
+              </button> */}
               <button
                 className="border-2 border-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg transition-all"
                 onClick={() => {
@@ -203,7 +205,9 @@ At Oscarnewman, we understand the importance of securing critical infrastructure
             solutions that empower individuals and communities. We're proud to
             partner with{" "}
             <a
+
               href="http://sety.io"
+
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 underline-none hover:text-blue-800"
@@ -216,7 +220,9 @@ At Oscarnewman, we understand the importance of securing critical infrastructure
             Our partnership with Sety is built on a shared commitment to
             empowering safety and security. By combining{" "}
             <a
+
               href="http://sety.io"
+
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 underline-none hover:text-blue-800"

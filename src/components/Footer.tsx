@@ -107,6 +107,7 @@ const Footer: React.FC = () => {
               <div className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors duration-200">
                 <IoMdMail className="text-xl text-orange-400 flex-shrink-0" />
                 <p className="text-sm">info@oscarnewmangroup.org</p>
+                <p className="text-sm">oscarnewmangroup@gmail.com</p>
               </div>
             </div>
           </div>

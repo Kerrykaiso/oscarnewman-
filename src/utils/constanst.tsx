@@ -1,11 +1,12 @@
-import img1 from "../assets/cctv.jpg";
+import img1 from "../assets/secureplace.jpg";
 import homesecurity from "../assets/homesecurity.jpg";
 import accesscontrol from "../assets/accesscontrol.png";
 import businessecurity from "../assets/business-security-guards.jpeg";
 import awareness from "../assets/awareness.png";
 import backgroundcheck from "../assets/backgrundcheck.png";
-import surviallance from "../assets/cctv-security-alarm-and-fire-surveillance.jpeg";
 import martime from "../assets/martime.jpg";
+import physicaltraining from "../assets/physicaltraining.jpeg";
+import intelliandsurvelliance from "../assets/survelliancetraining.jpeg";
 import avaition from "../assets/avaition.jpg";
 import securedmobility from "../assets/securedmobility.jpg";
 import cybersecuritytraining from "../assets/cyber-security-courses-in-nigeria.jpg";
@@ -16,10 +17,15 @@ import crisismanagement from "../assets/crisismanagement.jpeg";
 import consulting from "../assets/consulting.jpeg";
 import incidentreport from "../assets/incidentreport.jpeg";
 import penetration from "../assets/penetration.jpeg";
+import eventsecurity from "../assets/eventsecurity.jpeg"
 import soc from "../assets/soc.jpeg";
 import endpoint from "../assets/endpointsecure.jpg";
 import talentrisk from "../assets/Talentrisk .jpg";
 import cybertraining from "../assets/cybertraining.jpg";
+import compliance from "../assets/advicecompliance.jpeg"
+import specialized from "../assets/specializedsolutions.jpeg"
+import teaching from "../assets/teaching.jpg";
+
 
 const servicesData = {
   physical_security: [
@@ -35,7 +41,7 @@ const servicesData = {
       sub_title: "Reliable Event Security",
       content:
         "Oscar Newman Security ensures safe and seamless events with trained professionals managing access control, crowd management, and emergency response. From corporate gatherings to large public events, we provide tailored security solutions to keep your guests and venue secure.",
-      img: null,
+      img: eventsecurity,
       reverse: true,
     },
     {
@@ -85,7 +91,7 @@ const servicesData = {
       sub_title: "Watching over, responding fast.",
       content:
         "We bring you advanced surveillance and remote monitoring solutions to keep your property, business, and assets secure 24/7. Our high-definition CCTV systems, AI-driven analytics, and real-time monitoring to ensure immediate threat detection and rapid response to any security incidents. With remote access and expert intervention, we provide seamless protection, no matter where you are.",
-      img: surviallance,
+      img: intelliandsurvelliance,
       reverse: true,
     },
     {
@@ -154,14 +160,14 @@ const servicesData = {
         "Empowering organizations, strengthening security—one training at a time.",
       content:
         "A well-trained workforce is the first line of defense. Our corporate security training programs cover workplace security awareness, insider threat detection, fraud prevention, and emergency response planning. Designed for businesses of all sizes, our training ensures employees are prepared to handle security challenges effectively.",
-      img: null,
+      img: teaching,
     },
     {
       title: "Physical Security Training ",
       sub_title: "Trained to protect, prepared for anything.",
       content:
         "Security personnel must be equipped with the right skills to protect people and assets. Our physical security training includes access control procedures, perimeter security, surveillance operations, conflict resolution, and defensive tactics, ensuring guards and security teams are prepared for real-world threats.",
-      img: null,
+      img: physicaltraining,
       reverse: true,
     },
     {
@@ -263,14 +269,14 @@ const servicesData = {
       sub_title: "Policies that Protect. Compliance that Counts",
       content:
         "We assist organizations in developing and implementing clear, effective security policies that align with local and international compliance standards. Our advisory services ensure your operations are in full adherence to regulatory frameworks, such as ISO/IEC, GDPR, and other sector-specific mandates. From policy creation to compliance audits, we help create a culture of accountability and security awareness across your enterprise.",
-      img: null,
+      img: compliance,
     },
     {
       title: "Specialized Security Solution",
       sub_title: "Custom solutions for critical security.",
       content:
         "We provide Specialized Security Solutions tailored to the unique requirements of high-risk or sensitive environments. Whether it’s advanced surveillance integration, secure communication systems, counter-surveillance, or custom access control frameworks, we deliver cutting-edge technologies and specialized expertise. Our bespoke solutions are ideal for government, defense, critical infrastructure, and high-net-worth clientele needing heightened protection.",
-      img: null,
+      img: specialized,
       reverse: true,
     },
   ],

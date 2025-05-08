@@ -170,7 +170,7 @@ const Hero = () => {
                 <button
                   className="px-6 py-2 text-lg font-semibold border-2 border-[#fd7904] text-[#fd7904] rounded-lg hover:bg-[#fd7904] hover:text-white transition-all duration-300"
                   onClick={() => {
-                    nav("aboutus");
+                    nav("/our-story");
                   }}
                 >
                   Learn More
