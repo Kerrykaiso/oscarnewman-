@@ -58,7 +58,9 @@ const Layout = () => {
       </Helmet>
       <Arrow />
       <Header />
-      <Outlet />
+      <div className="pt-[13vh] max-md:pt-[10vh]">
+        <Outlet />
+      </div>
       <Footer />
     </>
   );
