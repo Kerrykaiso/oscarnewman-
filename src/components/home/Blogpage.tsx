@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import toast from "react-hot-toast";
+// import toast from "react-hot-toast";
 import axios from "../../config/axiosConfig";
 
 interface BlogPost {
@@ -24,7 +24,7 @@ const Blogpage = () => {
 
         setBlog(response.data);
       } catch (error) {
-        toast.error("Failed to load blog post.");
+        // toast.error("Failed to load blog post.");
         console.error(error);
       } finally {
         setLoading(false);
