@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "../../config/axiosConfig";
-import toast from "react-hot-toast";
+// import toast from "react-hot-toast";
 
 interface BlogPost {
   id: string;
@@ -25,7 +25,7 @@ const AllBlog = () => {
       const response = await axios.get("/getBlogs");
       setAllBlog(response.data);
     } catch (error) {
-      toast.error("Failed to fetch blogs. Please try again later.");
+      // toast.error("Failed to fetch blogs. Please try again later.");
       console.error(error);
     } finally {
       setLoading(false);

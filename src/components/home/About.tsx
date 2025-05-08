@@ -12,6 +12,13 @@ import {
 } from "lucide-react";
 
 import sec from "../../assets/secureplace.jpg";
+import teaching from "../../assets/teaching.jpg";
+
+import ourstaff from "../../assets/newstatffob.jpg";
+import otherstauff from "../../assets/critical.jpg";
+import telematics from "../../assets/telemanticccssssss.jpg";
+import cyber from "../../assets/cyyyyb.jpg";
+
 import teaching from "../../assets/classroom.jpeg";
 import ourstaff from "../../assets/sety (2).jpeg";
 import otherstauff from "../../assets/critical2.jpeg";
@@ -203,7 +210,9 @@ At Oscar Newman, we understand the importance of securing critical infrastructur
             solutions that empower individuals and communities. We're proud to
             partner with{" "}
             <a
-              href="https://www.sety.io"
+
+              href="http://sety.io"
+
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 underline-none hover:text-blue-800"
@@ -216,7 +225,9 @@ At Oscar Newman, we understand the importance of securing critical infrastructur
             Our partnership with Sety is built on a shared commitment to
             empowering safety and security. By combining{" "}
             <a
-              href="https://www.sety.io"
+
+              href="http://sety.io"
+
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 underline-none hover:text-blue-800"

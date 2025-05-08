@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { useEffect, useState } from "react";
-import toast from "react-hot-toast";
+// import toast from "react-hot-toast";
 import axios from "../../config/axiosConfig";
 
 const Blog = () => {
@@ -20,7 +20,7 @@ const Blog = () => {
       const response = await axios.get("/getBlogs");
       setLatestBlog(response.data);
     } catch (error) {
-      toast.error("Failed to fetch blogs. Please try again later.");
+      // toast.error("Failed to fetch blogs. Please try again later.");
       console.error(error);
     }
   };
