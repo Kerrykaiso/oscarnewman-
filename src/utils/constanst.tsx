@@ -1,7 +1,7 @@
 import img1 from "../assets/secureplace.jpg";
 import homesecurity from "../assets/homesecurity.jpg";
 import accesscontrol from "../assets/accesscontrol.png";
-import businessecurity from "../assets/business-security-guards.jpeg";
+import businessecurity from "../assets/buisnesssecurity.jpeg";
 import awareness from "../assets/awareness.png";
 import backgroundcheck from "../assets/backgrundcheck.png";
 import martime from "../assets/martime.jpg";
@@ -14,6 +14,7 @@ import telemmantics from "../assets/telemanticccssssss.jpg";
 import securityrisks from "../assets/securityriskkkk.jpeg";
 import cyberadvisory from "../assets/cyberadvisory.jpeg";
 import crisismanagement from "../assets/crisismanagement.jpeg";
+import crisistraining from "../assets/crisistraining.jpeg"
 import consulting from "../assets/consulting.jpeg";
 import incidentreport from "../assets/incidentreport.jpeg";
 import penetration from "../assets/penetration.jpeg";
@@ -24,7 +25,8 @@ import talentrisk from "../assets/Talentrisk .jpg";
 import cybertraining from "../assets/cybertraining.jpg";
 import compliance from "../assets/advicecompliance.jpeg"
 import specialized from "../assets/specializedsolutions.jpeg"
-import teaching from "../assets/teaching.jpg";
+import teaching from "../assets/organizationtraining.jpeg";
+import gadget from "../assets/gadgets.jpeg"
 
 
 const servicesData = {
@@ -102,14 +104,14 @@ const servicesData = {
         "We deliver a full spectrum of security solutions, including network, web, cloud, application security and lots more. Our specialists work closely with you to identify your specific needs, crafting a customized security strategy for maximum protection.",
       img: businessecurity,
     },
-    {
-      title: "Intelligence and Surveillance",
-      sub_title: "Insight-driven security—seeing more, responding faster.",
-      content:
-        "Leveraging advanced intelligence and surveillance systems we ae able to detect, analyze, and respond to potential threats in real time. Our solutions include AI-powered monitoring, data-driven threat assessments, and covert surveillance operations to ensure proactive security. With cutting-edge technology and expert analysis, we provide unmatched situational awareness and rapid response.",
-      img: null,
-      reverse: true,
-    },
+    // {
+    //   title: "Intelligence and Surveillance",
+    //   sub_title: "Insight-driven security—seeing more, responding faster.",
+    //   content:
+    //     "Leveraging advanced intelligence and surveillance systems we ae able to detect, analyze, and respond to potential threats in real time. Our solutions include AI-powered monitoring, data-driven threat assessments, and covert surveillance operations to ensure proactive security. With cutting-edge technology and expert analysis, we provide unmatched situational awareness and rapid response.",
+    //   img: null,
+    //   reverse: true,
+    // },
     {
       title: "Electronics and Telematics",
       sub_title:
@@ -117,14 +119,15 @@ const servicesData = {
       content:
         "Integrating cutting-edge electronics and telematics to enhance security, tracking, and communication. Our solutions include GPS tracking, fleet management, remote diagnostics, and real-time data analytics, ensuring seamless monitoring and operational efficiency. With smart technology and precision engineering, we keep you connected and in control.",
       img: telemmantics,
+      reverse:true
     },
     {
       title: "Digital Technology and Gadgets ",
       sub_title: "Smart defense, instant action—technology that protects.",
       content:
         "Oscar Newman Security harnesses cutting-edge digital technology and advanced security gadgets to enhance protection and threat deterrence. From Smoke Cloak systems that create instant visual barriers to automated pepper spray for intruder defense, down to Fire Alarm system and lots more, we integrate smart, high-tech solutions for maximum security. Our innovations ensure swift response, proactive defense, and seamless control over your safety.",
-      img: null,
-      reverse: true,
+      img: gadget,
+     
     },
     {
       title: "Home Security",
@@ -132,6 +135,7 @@ const servicesData = {
       content:
         "Bringing to your doorsteps advanced home protection with cutting-edge systems like smart alarms, CCTV surveillance, motion detectors, and automated access control. Whether deterring intruders or responding to emergencies, our technology ensures round-the-clock safety for you and your family. Stay secure with intelligent, reliable, and fully integrated home security solutions.",
       img: homesecurity,
+      reverse:true
     },
   ],
 
@@ -182,7 +186,7 @@ const servicesData = {
       sub_title: "Crisis-ready, response-driven—because every second counts.",
       content:
         "Preparedness saves lives in emergencies. Our crisis management training includes fire safety, active shooter response, disaster recovery planning, and evacuation drills. We equip individuals and organizations with the knowledge and skills to respond quickly and effectively in critical situations.",
-      img: null,
+      img: crisistraining,
       reverse: true,
     },
   ],

@@ -27,7 +27,7 @@ const ServiceSection = ({ data }: { data: ServiceProps[] }) => {
             <img
               src={item.img || img}
               alt=""
-              className="w-full h-full object-cover object-top"
+              className="w-full h-full object-cover object-center"
             />
           </div>
           <div className="w-full">

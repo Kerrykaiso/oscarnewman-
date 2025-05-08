@@ -58,7 +58,12 @@ import {
   ];
   
   console.log(openPositions);
-  
+
+  const handleSubmit =()=>{
+    const recepient = "oscarnewmangroup@gmail.com"
+    const gmailUrl = `https://mail_google.com/mail/?view=cm&fs=1&to = ${recepient}`
+    window.open(gmailUrl, "_blank")
+  }
   return (
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
   {/* Hero Section */}
@@ -171,7 +176,8 @@ import {
   We're always seeking exceptional talent. Send us your resume and tell
   us how you can contribute to our mission.
   </p>
-  <button className="bg-blue-700 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-800 transition">
+  <button className="bg-blue-700 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-800 transition"
+  onClick={handleSubmit}>
   Submit General Application
   </button>
   </section>

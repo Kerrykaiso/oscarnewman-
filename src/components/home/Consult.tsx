@@ -51,18 +51,18 @@ const Consult = () => {
           />
         </div>
       </section>
-      <div className="flex flex-col gap-4  mt-28 text-white justify-center text-center">
+      {/* <div className="flex flex-col gap-4  mt-28 text-white justify-center text-center">
         <p className="lg:text-2xl text-xl text-[#FFFCF9] opacity-90 font-light">
           "Your integrated services are a delight, they have saved me a <br />{" "}
           lot and give me peace of mind"
         </p>
         <div className="flex items-center gap-4 justify-center">
-          {/* <img src={avatar} alt="Avatar" width={60} /> */}
+          <img src={avatar} alt="Avatar" width={60} />
           <h1 className="text-2xl font-bold">
             MD/CEO / Protogy Global Services
           </h1>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

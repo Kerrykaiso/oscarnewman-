@@ -12,8 +12,8 @@ import {
 } from "lucide-react";
 
 import sec from "../../assets/secureplace.jpg";
-import teaching from "../../assets/teaching.jpg";
-import ourstaff from "../../assets/sosandresponse.jpeg";
+import teaching from "../../assets/classroom.jpeg";
+import ourstaff from "../../assets/sety (2).jpeg";
 import otherstauff from "../../assets/critical2.jpeg";
 import telematics from "../../assets/telematics2.jpeg";
 import cyber from "../../assets/cybersolutions.jpeg";
@@ -164,15 +164,15 @@ const About: React.FC = () => {
       />
 
       <AboutSection
-        title="Oscarnewman Security Training"
+        title="Oscar Newman Security Training"
         description="We cultivate the next generation of security professionals through cutting-edge training programs. Our curriculum empowers young talents with advanced skills in emergency response, cyber threat management, surveillance techniques, and innovative security technologies."
         image={teaching}
         imageRight={false}
         icons={[Globe, Zap]}
       />
       <AboutSection
-        title="Unlock the Power of Telematics with Oscarnewman"
-        description="At Oscarnewman, we are dedicated to enhancing your fleet operations through data-driven telematics solutions. Our services provide real-time insights that help reduce costs, improve driver behavior, and optimize overall efficiency.
+        title="Unlock the Power of Telematics with Oscar Newman"
+        description="At Oscar Newman, we are dedicated to enhancing your fleet operations through data-driven telematics solutions. Our services provide real-time insights that help reduce costs, improve driver behavior, and optimize overall efficiency.
 
   Our Telematics Services include:
   - GPS Tracking: Streamline route planning, minimize fuel consumption, and improve delivery timelines.
@@ -188,8 +188,8 @@ const About: React.FC = () => {
 
       <AboutSection
         title="Critical Infrastructure Security Solutions"
-        description="Oscarnewman provides comprehensive security solutions for critical infrastructure, ensuring the safety and security of borders, pipelines, airlines, and water bodies.
-At Oscarnewman, we understand the importance of securing critical infrastructure. Our team of experts provides customized security solutions tailored to meet the unique needs of each client. With Oscarnewman, you can trust that your critical infrastructure is secure and protected."
+        description="Oscar Newman provides comprehensive security solutions for critical infrastructure, ensuring the safety and security of borders, pipelines, airlines, and water bodies.
+At Oscar Newman, we understand the importance of securing critical infrastructure. Our team of experts provides customized security solutions tailored to meet the unique needs of each client. With Oscar Newman, you can trust that your critical infrastructure is secure and protected."
         image={otherstauff}
         imageRight={false}
         icons={[Award, Target]}
@@ -199,7 +199,7 @@ At Oscarnewman, we understand the importance of securing critical infrastructure
         title="SOS and Response"
         description={
           <>
-            At Oscarnewman, we're committed to providing innovative safety
+            At Oscar Newman, we're committed to providing innovative safety
             solutions that empower individuals and communities. We're proud to
             partner with{" "}
             <a
@@ -223,7 +223,7 @@ At Oscarnewman, we understand the importance of securing critical infrastructure
             >
               Sety{" "}
             </a>{" "}
-            innovative SOS messaging technology with Oscarnewman's expertise in
+            innovative SOS messaging technology with Oscar Newman's expertise in
             response services, we're creating a safer, more responsive
             community.
             <br />
