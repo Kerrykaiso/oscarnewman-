@@ -5,23 +5,19 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Outlet } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import ScrollToTop from "../components/scrolltotop";
 
 const Arrow = () => {
   const [scroll, setScroll] = useState(false);
 
   const onScroll = () => {
-    // Debugging logs to check scroll behavior
-    // console.log('ScrollY:', window.scrollY);
-    // console.log('InnerHeight:', window.innerHeight);
-    // console.log('DocumentHeight:', document.documentElement.scrollHeight);
-
-    // Check if scroll position is past a certain point
     if (window.scrollY >= 30) {
       setScroll(true);
     } else {
       setScroll(false);
     }
   };
+
   const oNcLIck = () => {
     console.log("hello world");
   };
@@ -49,6 +45,7 @@ const Arrow = () => {
 const Layout = () => {
   return (
     <>
+      <ScrollToTop /> {/* <-- Add this here */}
       <Helmet>
         <title>Home - Oscar Newman Concept</title>
         <meta
