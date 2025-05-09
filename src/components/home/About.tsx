@@ -12,12 +12,9 @@ import {
 } from "lucide-react";
 
 import sec from "../../assets/secureplace.jpg";
-import teaching from "../../assets/teaching.jpg";
+//import teaching from "../../assets/teaching.jpg";
 
-import ourstaff from "../../assets/newstatffob.jpg";
-import otherstauff from "../../assets/critical.jpg";
-import telematics from "../../assets/telemanticccssssss.jpg";
-import cyber from "../../assets/cyyyyb.jpg";
+
 
 import teaching from "../../assets/classroom.jpeg";
 import ourstaff from "../../assets/sety (2).jpeg";
